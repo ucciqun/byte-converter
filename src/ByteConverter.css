@@ -1,0 +1,28 @@
+.byteConverter__root {
+  display: flex;
+  justify-content: left;
+  height: 32px;
+}
+.byteConverter__reset {
+  border: 1px solid white;
+  background-color: white;
+  color: #6a788a;
+  cursor: pointer;
+
+  transition-duration: 0.2s;
+  margin: 0px 12px;
+}
+
+.byteConverter__reset:hover {
+  border-color: #313847;
+  border-radius: 3px;
+}
+
+.byteConverter__hex {
+  margin: 0 8px;
+  padding-top: 2px;
+  font-size: 16px;
+  font-family: monospace;
+
+  color: #313847;
+}

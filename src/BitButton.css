@@ -1,0 +1,20 @@
+.bitButton__root {
+  border: 1px solid lightgray;
+  border-radius: 0;
+  background-color: white;
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  cursor: pointer;
+
+  font-size: 14px;
+  transition-duration: 0.2s;
+}
+.bitButton__root:hover {
+  border: 1px solid #313847;
+}
+
+.bitButton__ON {
+  background-color: #313847;
+  color: white;
+}
